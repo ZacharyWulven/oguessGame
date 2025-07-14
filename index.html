@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>猜数字游戏</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>猜数字游戏</h1>
+    <p>系统已随机生成 1-30 之间的一个数字，请输入你的猜测：</p>
+    <input type="number" id="guessInput" min="1" max="30" placeholder="输入1-30的数字">
+    <button id="guessBtn">猜！</button>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
